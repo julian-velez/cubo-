@@ -1,0 +1,13 @@
+.animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: #33dba9;
+    position: relative;
+    animation: move-box 5s linear infinite;
+}
+
+@keyframes move-box {
+    0% { left: 0; }
+    50% { left: 50%; }
+    100% { left: 0; }
+}
